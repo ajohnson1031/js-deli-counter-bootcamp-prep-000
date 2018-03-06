@@ -27,7 +27,7 @@ function currentLine(arr) {
 
   namesFinal = names.join(', ');
 
-  arr.length <= 0 ? mess = `The line is currently empty.` : mess = `The line is currently: ${names}`;
+  arr.length <= 0 ? mess = `The line is currently empty.` : mess = `The line is currently: ${namesFinal}`;
 
   return mess;
 }
