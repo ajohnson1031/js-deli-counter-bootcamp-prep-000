@@ -15,7 +15,7 @@ function nowServing(arr) {
 }
 
 function currentLine(arr) {
-  var i = 1,
+  var i = 0,
   names = [],
   mess;
 
