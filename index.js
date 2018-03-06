@@ -17,8 +17,7 @@ function nowServing(arr) {
 function currentLine(arr) {
   var i = 0,
   names = [],
-  mess,
-  namesFinal;
+  mess;
 
   while (i < arr.length) {
     names.push(`${i + 1}. ${arr[i]}`);
