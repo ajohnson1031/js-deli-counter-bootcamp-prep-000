@@ -21,7 +21,6 @@ function currentLine(arr) {
 
   while (i < arr.length) {
     names.push(`${i + 1}. ${arr[i]}`);
-    names.join(' ');
     i++;
   }
 
